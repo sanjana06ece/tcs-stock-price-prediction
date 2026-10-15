@@ -6,9 +6,13 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Project paths
+
+# Project paths
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "data" / "tcs_stock_data.csv"
-MODEL_PATH = BASE_DIR / "models" / "random_forest_stock_model.pkl"
+
+DATA_PATH = BASE_DIR / "tcs_stock_data.csv"
+MODEL_PATH = BASE_DIR / "random_forest_stock_model.pkl"
+
 
 st.set_page_config(
     page_title="Stock Price Prediction",
